@@ -2,6 +2,7 @@ import React from "react";
 import {useState, useEffect} from "react"
 import "./navbar.css"
 import { Link } from "react-router-dom";
+import perfectlogo from '../../perfectlogo.jpg';
 
 const Nav = () =>{
     const [visible, setVisible] = useState(false);
@@ -28,19 +29,16 @@ const Nav = () =>{
         padding: 0,
         opacity: visible ? 1 : 0,
         transition: "opacity 0.8s ease-in-out",
-
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         position: "absolute",
         zIndex: "3",
-
     }
-
 
     return (<>
             <div style={navstyle}>
-                <img className="image1" src="perfectlogo.jpg"></img>
+                <img className="image1" src={perfectlogo} alt="Logo" />
                     <ul style={{
                         display:"flex",
                         alignItems:"center",
