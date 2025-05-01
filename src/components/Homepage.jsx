@@ -7,27 +7,40 @@ import Masonry from './Masonry/Masonry.jsx'
 import Footer from "./footer.jsx"
 import Nav from "./navbar.jsx"
 
+// Import images
+import newBackground from '../../new background.jpg';
+import sportshubVideo from '../../sportshub-vid-2_8ohtdGFO.mp4_1745411639362.mp4';
+import image1 from '../../image1.jpg';
+import image2 from '../../image2.jpg';
+import image3 from '../../image3.jpg';
+import image4 from '../../image4.jpg';
+import image5 from '../../image5.jpg';
+import image6 from '../../image6.jpg';
+import bookimg from '../../bookimg.jpg';
+import table from '../../table.jpg';
+import training from '../../training.jpg';
+
 function Homepage() {
     const data = [
-        { id: 1, image: 'image1.jpg', height: 500 },
-        { id: 2, image: 'image2.jpg', height: 700 },
-        { id: 3, image: 'image3.jpg', height: 400 },
-        { id: 4, image: 'image4.jpg', height: 500 },
-        { id: 5, image: 'image5.jpg', height: 400 },
-        { id: 8, image: 'image6.jpg', height: 450 },
+        { id: 1, image: image1, height: 500 },
+        { id: 2, image: image2, height: 700 },
+        { id: 3, image: image3, height: 400 },
+        { id: 4, image: image4, height: 500 },
+        { id: 5, image: image5, height: 400 },
+        { id: 8, image: image6, height: 450 },
       ];
     const main = [{
-        "image": "bookimg.jpg",
+        "image": bookimg,
         "head": "BOOKING",
         "but": "BOOK"
     }]
     const member = [{
-        "image": "table.jpg",
+        "image": table,
         "head": "MEMBERSHIP",
         "but": "MEMBER"
     }]
-    const training =[{
-        "image": "training.jpg",
+    const trainingData =[{
+        "image": training,
         "head": "TRAINING",
         "but": "TO TRAIN",
         "butt": "TO LEARN"
@@ -42,8 +55,8 @@ function Homepage() {
         <div>
             <Nav/>
             <div className="back">
-                <img src="new background.jpg"></img>
-                <video src="sportshub-vid-2_8ohtdGFO.mp4_1745411639362.mp4" loop autoPlay muted playsInline></video>
+                <img src={newBackground} alt="Background" />
+                <video src={sportshubVideo} loop autoPlay muted playsInline></video>
                 <div className="back-content">
                     <h1>.Train. | .Compete. | .Conquer.</h1>
                     <h3>Experience the thrill of the game in a sports complex where every match feels like a championship.</h3>
