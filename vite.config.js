@@ -12,5 +12,9 @@ export default defineConfig({
         assetFileNames: 'assets/[name]-[hash][extname]'
       }
     }
+  },
+  base: '/',
+  server: {
+    historyApiFallback: true
   }
 })

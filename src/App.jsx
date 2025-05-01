@@ -6,7 +6,7 @@ import TableTennis from './components/TableTennis.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/tabletennis" element={<TableTennis />} />
