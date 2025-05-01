@@ -1,0 +1,340 @@
+.back1{
+    width: 100vw;
+    height: 140vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.back1 img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    position: absolute;
+}
+.back1 video{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    top: 35%;
+}
+.back-content1 .butto{
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    z-index: 3;
+    font-weight: bold;
+    border-radius: 9999px;
+    left: 42%;
+    top: 63%;
+    background-color: rgb(93, 98, 244);
+    border: 1px solid rgb(93, 98, 244);
+}
+.back-content1 .butto:hover{
+    background-color: rgb(63, 3, 243);
+    color: antiquewhite;
+    border: 1px solid rgb(63, 3, 243);
+}
+.back-content1 h1{
+    position: absolute;
+    z-index: 2;
+    font-size: 7vh;
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #9a9191;
+    left: 12%;
+    top: 10%;
+}
+.back-content1 h3{
+    position: absolute;
+    z-index: 2;
+    font-size: 5vh;
+    color: #e6dfdf;
+    font-weight: bold;
+    left: 25%;
+    top: 17%;
+    width: 45%;
+    text-align: center;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.third{
+    position: absolute;
+    top: 121%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    background-color:#1A1A1A;
+}
+.third h1{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-size: 20vh;
+    color: green;
+    font-style: normal;
+    position: relative;
+    left: 17%;
+}
+.third .mainimage1{
+    position: absolute;
+    left: 55%;
+    z-index: 3;
+    height: 100vh;
+    top: 45%;
+}
+.third ul{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-size: 3vh;
+    color: rgb(201, 205, 241);
+    font-style: normal;
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    list-style: none;
+    width: 50%;
+    text-align: center;
+}
+.third .logoinside{
+    position: absolute;
+    width: 13%;
+    height: 23%;
+    left: 18%;
+    top: 45%;
+    opacity: 0.6;
+}
+.third h3{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-size: 3vh;
+    color: rgb(245, 248, 244);
+    font-style: normal;
+    position: absolute;
+    left: 16%;
+    top: 65%;
+    text-align: center;
+}
+.third .yoni{
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    left: 1%;
+    top: 68%;
+    opacity: 0.7;
+}
+.third .hundi{
+    position: absolute;
+    width: 17%;
+    height: 29%;
+    left: 20%;
+    top: 68%;
+    opacity: 0.6;
+}
+.third .lini{
+    position: absolute;
+    width: 17%;
+    height: 17%;
+    left: 38%;
+    top: 74%;
+    opacity: 0.6;
+}
+.third2{
+    position: absolute;
+    width: 100vw;
+    height: 200vh;
+    z-index: 2;
+    top: 221%;
+    background-color:#1A1A1A;
+}
+.third2 .vanish{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    left: 27%;
+    opacity: 0.5;
+    top: 24%;
+}
+.third2 h1{
+    position: absolute;
+    color:aliceblue ;
+    top: 25%;
+    left: 4%;
+    font-size: 5vh;
+}
+.third2 .head1{
+    position: absolute;
+    color:aliceblue ;
+    top: 35%;
+    left: 4%;
+    font-size: 4vh;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.third2 .bad1{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 42%;
+    left: 7%;
+}
+.third2 .bad2{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 42%;
+    left: 17%;
+}
+.third2 .linemake{
+    width: 1px;
+    height: 40vh;
+    border: 1px solid rgb(195, 194, 194);
+    position: absolute;
+    left: 45%;
+    top: 37%;
+}
+.third2 .firstlst{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 3.5vh;
+    color: rgb(133, 163, 232);
+    list-style: none;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.third2 .head2{
+    position: absolute;
+    color:aliceblue ;
+    top: 63%;
+    right: 10%;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.third2 .linemake1{
+    width: 1px;
+    height: 60vh;
+    border: 1px solid rgb(195, 194, 194);
+    position: absolute;
+    left: 45%;
+    top: 65%;
+}
+.third2 .smash{
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 60%;
+    right: 60%;
+}
+.third2 .secondlst{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 3.5vh;
+    color: rgb(194, 192, 250);
+    list-style: none;
+    animation: appears linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+@keyframes appears{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.third3{
+    position: absolute;
+    width: 100vw;
+    height: 200vh;
+    z-index: 2;
+    background-color:#1A1A1A;
+    top: 400%;
+}
+.third3 .head3{
+    position: relative;
+    color:aliceblue ;
+    top: 7%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 5%;
+    font-size: 5vh;
+    font-weight: bold;
+}
+.third3 .linemake2{
+    width: 1px;
+    height: 60vh;
+    border: 1px solid rgb(195, 194, 194);
+    position: absolute;
+    left: 45%;
+    top: 8%;
+}
+.third3 .member{
+    position: absolute;
+    width: 30%;
+    height: 25%;
+    top: 13%;
+    left: 5%;
+}
+.third3 .thirdlst{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    font-size: 3.5vh;
+    color: rgb(231, 234, 234);
+    list-style: none;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.third3 .head4{
+    position: relative;
+    color:rgb(66, 145, 214) ;
+    top: 40%;
+    left: 41%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7vh;
+    font-weight: bold;
+}
+.third3 .fourthlst{
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    position: absolute;
+    top: 52%;
+    left: 8%;
+    color: rgb(155, 219, 240);
+    font-size: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 5vh;
+    font-weight: bold;
+}

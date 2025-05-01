@@ -1,0 +1,344 @@
+.back{
+    width: 100vw;
+    height: 140vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.back img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    position: absolute;
+}
+.back video{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    top: 35%;
+}
+.back-content button{
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    z-index: 3;
+    font-weight: bold;
+    border-radius: 9999px;
+    left: 42%;
+    top: 63%;
+    background-color: rgb(116, 208, 116);
+    border: 1px solid rgb(116, 208, 116);
+}
+.back-content button:hover{
+    background-color: green;
+    color: antiquewhite;
+    border: 1px solid green;
+}
+.back-content h1{
+    position: absolute;
+    z-index: 2;
+    font-size: 7vh;
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1A1A1A;
+    left: 12%;
+    top: 10%;
+}
+.back-content h3{
+    position: absolute;
+    z-index: 2;
+    font-size: 5vh;
+    color: #908d8d;
+    font-weight: bold;
+    left: 25%;
+    top: 17%;
+    width: 45%;
+    text-align: center;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.second{
+    position: absolute;
+    top: 121%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    background-color:#1A1A1A;
+}
+.second h1{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-size: 20vh;
+    color: green;
+    font-style: normal;
+    position: relative;
+    left: 17%;
+}
+.second .mainimage1{
+    position: absolute;
+    left: 50%;
+    z-index: 3;
+}
+.second ul{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-size: 3vh;
+    color: rgb(224, 245, 224);
+    font-style: normal;
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    list-style: none;
+    width: 50%;
+    text-align: center;
+}
+.second .logoinside{
+    position: absolute;
+    width: 13%;
+    height: 23%;
+    left: 18%;
+    top: 45%;
+    opacity: 0.6;
+}
+.second h3{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-size: 3vh;
+    color: rgb(245, 248, 244);
+    font-style: normal;
+    position: absolute;
+    left: 16%;
+    top: 65%;
+    text-align: center;
+}
+.second .yoni{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    left: 2%;
+    top: 75%;
+}
+.second .hundi{
+    position: absolute;
+    width: 17%;
+    height: 29%;
+    left: 18%;
+    top: 68%;
+    opacity: 0.6;
+}
+.second .lini{
+    position: absolute;
+    width: 17%;
+    height: 29%;
+    left: 38%;
+    top: 68%;
+    opacity: 0.6;
+}
+.second2{
+    position: absolute;
+    width: 100vw;
+    height: 200vh;
+    z-index: 2;
+    top: 221%;
+    background-color:#1A1A1A;
+}
+.second2 .vanish{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    left: 27%;
+    opacity: 0.5;
+    top: 24%;
+}
+.second2 h1{
+    position: absolute;
+    color:aliceblue ;
+    top: 25%;
+    left: 4%;
+    font-size: 5vh;
+}
+.head1{
+    position: absolute;
+    color:aliceblue ;
+    top: 35%;
+    left: 4%;
+    font-size: 4vh;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.second2 .bad1{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 42%;
+    left: 5%;
+}
+.second2 .bad2{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 42%;
+    left: 13%;
+}
+.second2 .bad3{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 42%;
+    left: 21%;
+}
+.linemake{
+    width: 1px;
+    height: 40vh;
+    border: 1px solid rgb(195, 194, 194);
+    position: absolute;
+    left: 45%;
+    top: 37%;
+}
+.second2 .firstlst{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 3.5vh;
+    color: antiquewhite;
+    list-style: none;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.head2{
+    position: absolute;
+    color:aliceblue ;
+    top: 63%;
+    right: 10%;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.linemake1{
+    width: 1px;
+    height: 60vh;
+    border: 1px solid rgb(195, 194, 194);
+    position: absolute;
+    left: 45%;
+    top: 65%;
+}
+.smash{
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 60%;
+    right: 60%;
+}
+.secondlst{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 3.5vh;
+    color: rgb(194, 192, 250);
+    list-style: none;
+    animation: appears linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+@keyframes appears{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.second3{
+    position: absolute;
+    width: 100vw;
+    height: 200vh;
+    z-index: 2;
+    background-color:#1A1A1A;
+    top: 400%;
+}
+.head3{
+    position: relative;
+    color:aliceblue ;
+    top: 7%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 5%;
+    font-size: 5vh;
+    font-weight: bold;
+}
+.linemake2{
+    width: 1px;
+    height: 60vh;
+    border: 1px solid rgb(195, 194, 194);
+    position: absolute;
+    left: 45%;
+    top: 8%;
+}
+.member{
+    position: absolute;
+    width: 30%;
+    height: 25%;
+    top: 13%;
+    left: 5%;
+}
+.thirdlst{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    font-size: 3.5vh;
+    color: rgb(184, 237, 233);
+    list-style: none;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.head4{
+    position: relative;
+    color:rgb(134, 202, 152) ;
+    top: 40%;
+    left: 41%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7vh;
+    font-weight: bold;
+}
+.fourthlst{
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    position: absolute;
+    top: 52%;
+    left: 8%;
+    color: rgba(84, 235, 129, 0.784);
+    font-size: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 5vh;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+.nav-link {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 3px 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: rgb(104, 202, 140);
+    cursor: pointer;
+  }
+  
+  .book-button {
+    width: 8vw;
+    height: 4vh;
+    font-size: 2.2vh;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    bottom: 1%;
+    top: 1%;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  .book-button:hover{
+    cursor: pointer;
+    background-color: green;
+    border: 2px solid wheat;
+  }
+  
+.image1{
+    position: absolute;
+    width: 12%;
+    left: 3%;
+    padding-top: 40px;
+}
