@@ -55,7 +55,7 @@ function Masonry({ data }) {
   }, [columns, data, width]);
 
   const transitions = useTransition(gridItems, {
-    keys: (item) => item.id, // Use a unique key based on the id
+    keys: (item) => item.id,
     from: ({ x, y, width, height }) => ({ x, y, width, height, opacity: 0 }),
     enter: ({ x, y, width, height }) => ({ x, y, width, height, opacity: 1 }),
     update: ({ x, y, width, height }) => ({ x, y, width, height }),
@@ -71,10 +71,10 @@ function Masonry({ data }) {
         <a.div key={item.id} style={style}>
           <div
             style={{
-              backgroundColor: '#ffffff', // Set background if needed
+              backgroundColor: '#ffffff',
               width: '100%',
               height: '100%',
-              backgroundImage: `url(${item.image})`,
+              backgroundImage: `url(${typeof item.image === 'string' ? item.image : item.image.src})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
