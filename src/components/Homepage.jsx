@@ -19,6 +19,14 @@ import image6 from '../../image6.jpg';
 import bookimg from '../../bookimg.jpg';
 import table from '../../table.jpg';
 import training from '../../training.jpg';
+import badmintonCourt from '../../badminton-court.png';
+import perfectlogo from '../../perfectlogo.jpg';
+import yonex from '../../yonex-removebg-preview.png';
+import lining from '../../lining-removebg-preview.png';
+import hundred from '../../hundred-removebg-preview.png';
+import vanish from '../../vanish2.0.jpg';
+import trainsmash from '../../trainsmash-removebg-preview.png';
+import real from '../../real-removebg-preview.png';
 
 function Homepage() {
     const data = [
@@ -72,7 +80,7 @@ function Homepage() {
                     onAnimationComplete={handleAnimationComplete}
                     className="text-2xl mb-8"
                 />
-                <img className="mainimage1" src="badminton-court.png"></img>
+                <img className="mainimage1" src={badmintonCourt} alt="Badminton Court" />
                 <ul>
                     <li>
                         Welcome to dropShot, where badminton meets excellence!
@@ -80,11 +88,11 @@ function Homepage() {
                         Experience the game like never before — premium, powerful, and perfect.
                     </li>
                 </ul>
-                <img className="logoinside" src="perfectlogo.jpg"></img>
+                <img className="logoinside" src={perfectlogo} alt="Logo" />
                 <h3>-We support the best-</h3>
-                <img className="yoni" src="yonex-removebg-preview.png"></img>
-                <img className="lini" src="lining-removebg-preview.png"></img>
-                <img className="hundi" src="hundred-removebg-preview.png"></img>
+                <img className="yoni" src={yonex} alt="Yonex" />
+                <img className="lini" src={lining} alt="Lining" />
+                <img className="hundi" src={hundred} alt="Hundred" />
             </div>
             <div className="second2">
                 <GradientText
@@ -93,16 +101,15 @@ function Homepage() {
                     showBorder={true}
                     className="custom-class"
                     link="/badminton"
-                    
-                    >
+                >
                     Book Now!
                 </GradientText>
-                <img className="vanish" src="vanish2.0.jpg"></img>
+                <img className="vanish" src={vanish} alt="Vanish" />
                 <h1>-<span style={{color: "green"}}>Premium</span> Services-</h1>
                 <h2 className="head1">Top-Quality Badminton Courts</h2>
-                <img className="bad1" src="badminton-court.png"></img>
-                <img className="bad2" src="badminton-court.png"></img>
-                <img className="bad3" src="badminton-court.png"></img>
+                <img className="bad1" src={badmintonCourt} alt="Badminton Court" />
+                <img className="bad2" src={badmintonCourt} alt="Badminton Court" />
+                <img className="bad3" src={badmintonCourt} alt="Badminton Court" />
                 <div className="linemake"></div>
                 <ul className="firstlst">
                     <li>~ 3 Premium wooden flooring with Synthetic mats for natural bounce and reduced injury.</li>
@@ -113,7 +120,7 @@ function Homepage() {
                 </ul>
                 <h2 className="head2">Training Programs</h2>
                 <div className="linemake1"></div>
-                <img className="smash" src="trainsmash-removebg-preview.png"></img>
+                <img className="smash" src={trainsmash} alt="Training Smash" />
                 <ul className="secondlst">
                     <li>~ Training led by certified professional coaches.</li>
                     <ShinyText text="LEARN NOW" disabled={false} speed={3} className='custom-class' />
@@ -128,7 +135,7 @@ function Homepage() {
             <div className="second3">
                 <h2 className="head3">Memberships</h2>
                 <div className="linemake2"></div>
-                <img className="member" src="real-removebg-preview.png"></img>
+                <img className="member" src={real} alt="Real" />
                 <ul className="thirdlst">
                     <li>~ Premium Members get <span style={{color:"gold"}}>Exclusive benefits</span> of our Sports complex.</li>
                     <br></br>
@@ -139,13 +146,10 @@ function Homepage() {
                 <h1 className="head4">Store</h1>
                 <h3 className="fourthlst">WE PROVIDE YOU EVERYTHING REQUIRED </h3>
                 <Masonry data={data} />
-
             </div>
             <Footer/>
         </div>
-           
-        
-
     )
 }
+
 export default Homepage
