@@ -42,11 +42,12 @@
     margin-top: 20px;
 }
 .footimg{
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: auto;
     position: absolute;
     right: 5%;
     top: 9%;
+    object-fit: contain;
 }
 .contact img{
     width: 60px;
@@ -72,7 +73,7 @@
     color: aliceblue;
     padding: 3px 8px;
     transition: all 0.3s ease;
-  }
+}
 .nav-link1:hover{
     color: antiquewhite;
     cursor: pointer;
