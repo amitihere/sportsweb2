@@ -103,10 +103,8 @@ const TableTennis = () => {
                     <ShinyText text="LEARN NOW" disabled={false} speed={3} className='custom-class' />
                     <br></br>
                     <br></br>
-                    <br></br>
-                    <br></br>
                     <li>~ We also encourage young talent to join us and train people from their experience.</li>
-                    <button style={{color:"#b5b5b5a4",position:"absolute",width:"30%",height:"10%",backgroundColor:"transparent",border:"1px solid #b5b5b5a4",borderRadius:"9999px",fontSize:"3vh",top:"52%",right:"37%",cursor:"pointer"}} >Teach Us</button>
+                    <button style={{color:"#b5b5b5a4",position:"absolute",width:"30%",height:"10%",backgroundColor:"transparent",border:"1px solid #b5b5b5a4",borderRadius:"9999px",fontSize:"3vh",top:"52%",cursor:"pointer"}} >Teach Us</button>
                 </ul>
         </div>
         <div className="third3">

@@ -1,9 +1,6 @@
-/*
-	Installed from https://reactbits.dev/default/
-*/
-
 .shiny-text {
-  color: #b5b5b5a4; /* Adjust this color to change intensity/style */
+  color: #b5b5b5a4;
+
   background: linear-gradient(
     120deg,
     rgba(255, 255, 255, 0) 40%,
@@ -11,20 +8,24 @@
     rgba(255, 255, 255, 0) 60%
   );
   background-size: 200% 100%;
+
   -webkit-background-clip: text;
   background-clip: text;
-  display: inline-block;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   animation: shine 5s linear infinite;
+
   border: 1px solid #b5b5b5a4;
   border-radius: 9999px;
-  padding: 7px;
-  width: 33%;
-  height: 10%;
-  position: absolute;
-  top: 16%;
-  right: 35%;
-}
-.shiny-text:hover{
+
+  padding: 20px 30px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 2vh;
+
   cursor: pointer;
 }
 
@@ -39,4 +40,5 @@
 
 .shiny-text.disabled {
   animation: none;
+  cursor: default;
 }

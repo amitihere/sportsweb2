@@ -1,4 +1,4 @@
-.back{
+.back {
     width: 100vw;
     height: 140vh;
     margin: 0;
@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-.back img{
+.back img {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -17,7 +17,8 @@
     z-index: 1;
     position: absolute;
 }
-.back video{
+
+.back video {
     width: 100%;
     height: 30%;
     position: absolute;
@@ -25,7 +26,8 @@
     object-fit: cover;
     top: 35%;
 }
-.back-content button{
+
+.back-content button {
     width: 10%;
     height: 5%;
     position: absolute;
@@ -37,12 +39,14 @@
     background-color: rgb(116, 208, 116);
     border: 1px solid rgb(116, 208, 116);
 }
-.back-content button:hover{
+
+.back-content button:hover {
     background-color: green;
     color: antiquewhite;
     border: 1px solid green;
 }
-.back-content h1{
+
+.back-content h1 {
     position: absolute;
     z-index: 2;
     font-size: 7vh;
@@ -53,7 +57,8 @@
     left: 12%;
     top: 10%;
 }
-.back-content h3{
+
+.back-content h3 {
     position: absolute;
     z-index: 2;
     font-size: 5vh;
@@ -67,15 +72,17 @@
     font-weight: 300;
     font-style: italic;
 }
-.second{
+
+.second {
     position: absolute;
     top: 121%;
     width: 100vw;
     height: 100vh;
     z-index: 3;
-    background-color:#1A1A1A;
+    background-color: #1A1A1A;
 }
-.second h1{
+
+.second h1 {
     font-family: "IBM Plex Serif", serif;
     font-weight: 700;
     font-size: 20vh;
@@ -84,12 +91,14 @@
     position: relative;
     left: 17%;
 }
-.second .mainimage1{
+
+.second .mainimage1 {
     position: absolute;
     left: 50%;
     z-index: 3;
 }
-.second ul{
+
+.second ul {
     font-family: "IBM Plex Serif", serif;
     font-weight: 600;
     font-size: 3vh;
@@ -102,15 +111,18 @@
     width: 50%;
     text-align: center;
 }
-.second .logoinside{
+
+.second .logoinside {
     position: absolute;
     width: 13%;
     height: 23%;
-    left: 18%;
+    left: 19%;
     top: 45%;
     opacity: 0.6;
+    margin: 20px
 }
-.second h3{
+
+.second h3 {
     font-family: "IBM Plex Serif", serif;
     font-weight: 600;
     font-size: 3vh;
@@ -121,14 +133,16 @@
     top: 65%;
     text-align: center;
 }
-.second .yoni{
+
+.second .yoni {
     position: absolute;
     width: 15%;
     height: 15%;
     left: 2%;
     top: 75%;
 }
-.second .hundi{
+
+.second .hundi {
     position: absolute;
     width: 17%;
     height: 29%;
@@ -136,7 +150,8 @@
     top: 68%;
     opacity: 0.6;
 }
-.second .lini{
+
+.second .lini {
     position: absolute;
     width: 17%;
     height: 29%;
@@ -144,15 +159,17 @@
     top: 68%;
     opacity: 0.6;
 }
-.second2{
+
+.second2 {
     position: absolute;
     width: 100vw;
     height: 200vh;
     z-index: 2;
     top: 221%;
-    background-color:#1A1A1A;
+    background-color: #1A1A1A;
 }
-.second2 .vanish{
+
+.second2 .vanish {
     position: relative;
     width: 40%;
     height: 40%;
@@ -160,44 +177,50 @@
     opacity: 0.5;
     top: 24%;
 }
-.second2 h1{
+
+.second2 h1 {
     position: absolute;
-    color:aliceblue ;
+    color: aliceblue;
     top: 25%;
     left: 4%;
     font-size: 5vh;
 }
-.head1{
+
+.head1 {
     position: absolute;
-    color:aliceblue ;
+    color: aliceblue;
     top: 35%;
     left: 4%;
     font-size: 4vh;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.second2 .bad1{
+
+.second2 .bad1 {
     position: absolute;
     width: 10%;
     height: 10%;
     top: 42%;
     left: 5%;
 }
-.second2 .bad2{
+
+.second2 .bad2 {
     position: absolute;
     width: 10%;
     height: 10%;
     top: 42%;
     left: 13%;
 }
-.second2 .bad3{
+
+.second2 .bad3 {
     position: absolute;
     width: 10%;
     height: 10%;
     top: 42%;
     left: 21%;
 }
-.linemake{
+
+.linemake {
     width: 1px;
     height: 40vh;
     border: 1px solid rgb(195, 194, 194);
@@ -205,7 +228,8 @@
     left: 45%;
     top: 37%;
 }
-.second2 .firstlst{
+
+.second2 .firstlst {
     width: 40%;
     height: 30%;
     position: absolute;
@@ -218,26 +242,30 @@
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
-@keyframes appear{
-    from{
+
+@keyframes appear {
+    from {
         opacity: 0;
         transform: translateX(100px);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translateX(0px);
     }
 }
-.head2{
+
+.head2 {
     position: absolute;
-    color:aliceblue ;
+    color: aliceblue;
     top: 63%;
     right: 10%;
     font-size: 5vh;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.linemake1{
+
+.linemake1 {
     width: 1px;
     height: 60vh;
     border: 1px solid rgb(195, 194, 194);
@@ -245,16 +273,18 @@
     left: 45%;
     top: 65%;
 }
-.smash{
+
+.smash {
     position: absolute;
     width: 40%;
     height: 30%;
     top: 60%;
     right: 60%;
 }
-.secondlst{
+
+.secondlst {
     width: 40%;
-    height: 30%;
+    height: 50%;
     position: absolute;
     top: 70%;
     left: 50%;
@@ -265,34 +295,52 @@
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
-@keyframes appears{
-    from{
+
+.teach-btn {
+  width: fit-content;
+  padding: 10px 30px;
+  font-size: 3vh;
+  color: #b5b5b5a4;
+  background: transparent;
+  border: 1px solid #b5b5b5a4;
+  border-radius: 9999px;
+  cursor: pointer;
+  margin-top: 2vh;
+  overflow: hidden;
+}
+
+@keyframes appears {
+    from {
         opacity: 0;
         transform: translateX(-100px);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translateX(0px);
     }
 }
-.second3{
+
+.second3 {
     position: absolute;
     width: 100vw;
     height: 200vh;
     z-index: 2;
-    background-color:#1A1A1A;
+    background-color: #1A1A1A;
     top: 400%;
 }
-.head3{
+
+.head3 {
     position: relative;
-    color:aliceblue ;
+    color: aliceblue;
     top: 7%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     left: 5%;
     font-size: 5vh;
     font-weight: bold;
 }
-.linemake2{
+
+.linemake2 {
     width: 1px;
     height: 60vh;
     border: 1px solid rgb(195, 194, 194);
@@ -300,14 +348,16 @@
     left: 45%;
     top: 8%;
 }
-.member{
+
+.member {
     position: absolute;
     width: 30%;
     height: 25%;
     top: 13%;
     left: 5%;
 }
-.thirdlst{
+
+.thirdlst {
     width: 40%;
     height: 30%;
     position: absolute;
@@ -320,16 +370,18 @@
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
-.head4{
+
+.head4 {
     position: relative;
-    color:rgb(134, 202, 152) ;
+    color: rgb(134, 202, 152);
     top: 40%;
     left: 41%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 7vh;
     font-weight: bold;
 }
-.fourthlst{
+
+.fourthlst {
     width: 80%;
     height: 50%;
     text-align: center;

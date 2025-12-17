@@ -36,7 +36,7 @@ function Homepage() {
         { id: 4, image: image4, height: 500 },
         { id: 5, image: image5, height: 400 },
         { id: 8, image: image6, height: 450 },
-      ];
+    ];
     const main = [{
         "image": bookimg,
         "head": "BOOKING",
@@ -47,21 +47,21 @@ function Homepage() {
         "head": "MEMBERSHIP",
         "but": "MEMBER"
     }]
-    const trainingData =[{
+    const trainingData = [{
         "image": training,
         "head": "TRAINING",
         "but": "TO TRAIN",
         "butt": "TO LEARN"
     }]
-    const store =[{
+    const store = [{
         "head": "STORE"
     }]
     const handleAnimationComplete = () => {
         console.log('Animation completed!');
-      };
+    };
     return (
         <div>
-            <Nav/>
+            <Nav />
             <div className="back">
                 <img src={newBackground} alt="Background" />
                 <video src={sportshubVideo} loop autoPlay muted playsInline></video>
@@ -105,7 +105,7 @@ function Homepage() {
                     Book Now!
                 </GradientText>
                 <img className="vanish" src={vanish} alt="Vanish" />
-                <h1>-<span style={{color: "green"}}>Premium</span> Services-</h1>
+                <h1>-<span style={{ color: "green" }}>Premium</span> Services-</h1>
                 <h2 className="head1">Top-Quality Badminton Courts</h2>
                 <img className="bad1" src={badmintonCourt} alt="Badminton Court" />
                 <img className="bad2" src={badmintonCourt} alt="Badminton Court" />
@@ -126,10 +126,8 @@ function Homepage() {
                     <ShinyText text="LEARN NOW" disabled={false} speed={3} className='custom-class' />
                     <br></br>
                     <br></br>
-                    <br></br>
-                    <br></br>
                     <li>~ We also encourage young talent to join us and train people from their experience.</li>
-                    <button style={{color:"#b5b5b5a4",position:"absolute",width:"30%",height:"10%",backgroundColor:"transparent",border:"1px solid #b5b5b5a4",borderRadius:"9999px",fontSize:"3vh",top:"52%",right:"37%",cursor:"pointer"}}>Teach Us</button>
+                    <button className="teach-btn">Teach Us</button>
                 </ul>
             </div>
             <div className="second3">
@@ -137,17 +135,17 @@ function Homepage() {
                 <div className="linemake2"></div>
                 <img className="member" src={real} alt="Real" />
                 <ul className="thirdlst">
-                    <li>~ Premium Members get <span style={{color:"gold"}}>Exclusive benefits</span> of our Sports complex.</li>
+                    <li>~ Premium Members get <span style={{ color: "gold" }}>Exclusive benefits</span> of our Sports complex.</li>
                     <br></br>
                     <li>~ Get to play daily on weekdays with 1 hour guranteed playing time.</li>
                     <br></br>
-                    <li>~ Get free <span style={{fontWeight:"bold",color:"green"}}>Mavis 350 shuttle</span> everyone month.</li>
+                    <li>~ Get free <span style={{ fontWeight: "bold", color: "green" }}>Mavis 350 shuttle</span> everyone month.</li>
                 </ul>
                 <h1 className="head4">Store</h1>
                 <h3 className="fourthlst">WE PROVIDE YOU EVERYTHING REQUIRED </h3>
                 <Masonry data={data} />
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

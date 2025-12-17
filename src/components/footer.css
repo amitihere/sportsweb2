@@ -1,4 +1,4 @@
-.foot{
+.foot {
     width: 100vw;
     height: 50vh;
     background-color: #4d4b4b;
@@ -7,7 +7,8 @@
     position: absolute;
     top: 600%;
 }
-.foot ul{
+
+.foot ul {
     width: 40%;
     height: 20%;
     font-size: 3vh;
@@ -16,32 +17,38 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.foot ul li{
+
+.foot ul li {
     list-style: none;
     align-items: center;
     line-height: 4vh;
 }
-.foot li:hover{
+
+.foot li:hover {
     cursor: pointer;
     color: rgb(205, 212, 186);
 }
-.contact-info{
+
+.contact-info {
     width: 50%;
     height: 70%;
 }
-.contact-info img{
+
+.contact-info img {
     width: 50px;
     height: 50px;
-    margin-top:40px ;
+    margin-top: 40px;
     margin-left: 20px;
 }
-.contact-info h4{
+
+.contact-info h4 {
     font-weight: 200;
     font-size: 3vh;
     color: aliceblue;
     margin-top: 20px;
 }
-.footimg{
+
+.footimg {
     width: 200px;
     height: auto;
     position: absolute;
@@ -49,32 +56,38 @@
     top: 9%;
     object-fit: contain;
 }
-.contact img{
+
+.contact img {
     width: 60px;
     height: 60px;
     margin: 8px;
 }
-.contact img:hover{
+
+.contact img:hover {
     cursor: pointer;
     border: 1px solid #4d4b4b;
 }
-.contact{
+
+.contact {
     width: 100%;
     position: absolute;
     top: 20%;
     left: 70%;
 }
-.contact h3{
+
+.contact h3 {
     font-size: 3vh;
     color: azure;
 }
-.nav-link1{
+
+.nav-link1 {
     text-decoration: none;
     color: aliceblue;
     padding: 3px 8px;
     transition: all 0.3s ease;
 }
-.nav-link1:hover{
+
+.nav-link1:hover {
     color: antiquewhite;
     cursor: pointer;
 }
