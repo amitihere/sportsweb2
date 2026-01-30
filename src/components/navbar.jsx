@@ -43,7 +43,7 @@ const Nav = () =>{
                         display:"flex",
                         alignItems:"center",
                         justifyContent:"space-evenly",
-                        fontSize:"2.5vh",
+                        fontSize:"2.4vh",
                         padding:0,
                         margin:0,
                         listStyle:"none",
